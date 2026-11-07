@@ -14,7 +14,7 @@ label{display:block;font-weight:600;margin:10px 0 3px;font-size:14px}.g{display:
 .th{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}.th img{width:72px;height:72px;object-fit:cover;border-radius:6px}.th div{position:relative}.th i{position:absolute;top:-6px;right:-6px;background:#a12d2d;color:#fff;border-radius:50%;width:22px;height:22px;text-align:center;font-style:normal;cursor:pointer}
 #tt{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--s);color:var(--f);padding:12px 20px;border-radius:24px;display:none;max-width:90%;text-align:center}
 </style></head><body>
-<header><b>MATMAR · ADMIN v3</b><a href="./" target="_blank">Ver catálogo</a></header>
+<header><b>MATMAR · ADMIN v4</b><a href="./" target="_blank">Ver catálogo</a></header>
 <main id="m"></main><div id="tt"></div>
 <script>
 window.onerror=(m)=>{const t=document.getElementById("tt");t.textContent="Error: "+m;t.style.display="block"};
@@ -44,6 +44,6 @@ async function up(inp){for(const f of inp.files){try{tt('Subiendo foto...',20000
 function saveP(){const g=i=>$('#'+i).value.trim(),l=i=>g(i).split(',').map(x=>x.trim()).filter(Boolean),n=g('an');if(!n)return tt('Falta el nombre');
  const p={...ed.p,nombre:n,marca:g('ab'),categoria:g('ac'),descripcion:g('ad'),precio:+g('ap')||0,promo:+g('ao')||0,tallas:l('az'),colores:l('ak'),disponible:$('#ao2').checked,destacado:$('#af').checked,nuevo:$('#an2').checked,masvendido:$('#am').checked};
  if(!p.id)p.id=n.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,30)+'-'+Date.now().toString(36).slice(-4);
- const i=ed.i;wrap(async()=>{await load();if(i==null)D.productos.push(p);else D.productos[i]=p},'Producto: '+n)}
+ if(+g('ao')&&+g('ao')>=+g('ap'))return tt('El precio de promoción debe ser menor al precio normal');const i=ed.i;wrap(async()=>{await load();if(i==null)D.productos.push(p);else D.productos[i]=p},'Producto: '+n)}
 (async()=>{if(!T)return login();try{await load();list()}catch(e){T='';login();tt('Vuelve a pegar tu token ('+e.message+')')}})();
 </script></body></html>
