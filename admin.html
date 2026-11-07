@@ -17,7 +17,7 @@ label{display:block;font-weight:600;margin:10px 0 3px;font-size:14px}.g{display:
 <header><b>MATMAR · ADMIN</b><a href="./" target="_blank">Ver catálogo</a></header>
 <main id="m"></main><div id="tt"></div>
 <script>
-const O='ftomarceballos94-hash',R='MATMAR',API=`https://api.github.com/repos/${O}/${R}/contents/`;
+const O=location.hostname.endsWith('.github.io')?location.hostname.split('.')[0]:'ftomarceballos94-hash',R=location.hostname.endsWith('.github.io')?(location.pathname.split('/')[1]||'MATMAR'):'MATMAR',API=`https://api.github.com/repos/${O}/${R}/contents/`;
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let T='',D=null,SHA='',ed=null,PV={};try{T=localStorage.getItem('mm_tk')||''}catch(e){}
 const H=()=>({Authorization:'Bearer '+T,Accept:'application/vnd.github+json'}),b64=s=>btoa(unescape(encodeURIComponent(s))),unb=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,''))));
