@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>MATMAR · Sport & Streetwear</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="MATMAR. Sport & Streetwear. Rendimiento, estilo y exclusividad.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Manrope:wght@400;600;800&display=swap">
+<style>
+:root{--s:#0F3460;--f:#EEF2FF;--bg:#fff;--sf:#EEF2FF;--tx:#0F3460;--mu:#5b6f94;--ln:#d3dcf3;--bt:#0F3460;--bx:#EEF2FF;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0a1b33;--sf:#10294d;--tx:#EEF2FF;--mu:#9fb0d3;--ln:#23406e;--bt:#EEF2FF;--bx:#0F3460}}
+:root[data-theme=dark]{--bg:#0a1b33;--sf:#10294d;--tx:#EEF2FF;--mu:#9fb0d3;--ln:#23406e;--bt:#EEF2FF;--bx:#0F3460}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:400 15px/1.5 Manrope,system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--s);z-index:30}
+button,input,select{font:inherit;color:inherit}button{cursor:pointer}:focus-visible{outline:2px solid var(--tx);outline-offset:2px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--s);padding:12px 16px}header img{display:block;height:30px;width:auto}
+.hero{background:var(--s);color:var(--f);padding:56px 20px 64px}.hero h1{font-size:clamp(18px,4vw,26px);margin:22px 0 4px;font-weight:800}.hero p{margin:0 0 28px;opacity:.8}
+.btn{display:inline-block;text-decoration:none;background:var(--bt);color:var(--bx);border:0;border-radius:4px;padding:14px 26px;font-weight:800;letter-spacing:.03em}.hero .btn{background:var(--f);color:var(--s)}.btn.o{background:none;color:var(--tx);border:1px solid var(--tx)}
+main,footer{max-width:1100px;margin:0 auto;padding:28px 16px}h2{font-size:20px;margin:0 0 14px;font-weight:800}
+.cats{display:flex;gap:8px;overflow-x:auto;padding:16px}.cats button{white-space:nowrap;background:var(--sf);border:0;border-radius:20px;padding:8px 16px;font-weight:600}
+.tb{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:18px}.tb .w{grid-column:1/-1}
+input,select{background:var(--sf);border:1px solid var(--ln);border-radius:4px;padding:10px;width:100%}
+.rw{display:flex;gap:14px;overflow-x:auto;padding-bottom:6px;margin-bottom:28px}.rw .card{flex:0 0 200px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}@media(min-width:700px){.grid{grid-template-columns:repeat(4,1fr)}.tb{grid-template-columns:2fr repeat(5,1fr)}.tb .w{grid-column:auto}}
+.card{position:relative;cursor:pointer}.card img,.ph{width:100%;aspect-ratio:1;object-fit:cover;background:var(--sf);border-radius:4px;display:grid;place-items:center;font:700 13px Syncopate,sans-serif;color:var(--mu)}
+.ci{padding:8px 2px}.ci small,.pi small{color:var(--mu)}.ci h3{margin:0;font-size:15px}.ci p{margin:2px 0 0}.ci s{color:var(--mu)}
+.tag{position:absolute;top:8px;left:8px;background:var(--s);color:var(--f);font-size:12px;padding:3px 8px;border-radius:3px}.tag.out{top:34px;background:#fff;color:#444}
+.em{grid-column:1/-1;color:var(--mu);padding:24px 0}
+.ov{position:fixed;inset:0;background:#0008;z-index:40;display:none;align-items:flex-end;justify-content:center}.ov.on{display:flex}
+.pn{background:var(--bg);width:100%;max-width:760px;max-height:92vh;overflow:auto;border-radius:12px 12px 0 0;padding:18px;position:relative}.x{position:absolute;right:14px;top:8px;font-size:28px;cursor:pointer;z-index:2}
+.big{width:100%;max-height:50vh;object-fit:cover;border-radius:4px}.th{display:flex;gap:6px;margin:6px 0}.th img{width:56px;height:56px;object-fit:cover;border-radius:3px;opacity:.5;cursor:pointer}.th .on{opacity:1}
+.chip{display:inline-block;border:1px solid var(--ln);border-radius:4px;padding:6px 12px;margin:0 6px 6px 0}.pr{font-size:22px;font-weight:800;margin:8px 0}
+footer{border-top:1px solid var(--ln);display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}footer a{color:var(--tx);font-weight:600}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<header><img src="matmar-icon.png" alt="MATMAR"></header>
+<div class="hero"><h2 style="margin:0"><img src="matmar-wordmark.png" alt="MATMAR" style="display:block;width:min(100%,380px);height:auto"></h2><h1>SPORT &amp; STREETWEAR</h1><p>Rendimiento, estilo y exclusividad.</p><a class="btn" href="#catalogo">EXPLORAR CATÁLOGO</a></div>
+<div class="cats" id="cats"></div>
+<main><div id="rows"></div><h2 id="catalogo">Catálogo</h2>
+<div class="tb"><input class="w" id="fq" type="search" placeholder="Buscar productos"><select id="fb"></select><select id="fc"></select><select id="fs"></select><input id="fm" type="number" min="0" placeholder="Precio máx."><label style="display:flex;gap:8px;align-items:center"><input id="fa" type="checkbox" style="width:auto">Solo disponibles</label></div>
+<div class="grid" id="grid"></div></main>
+<footer><div><b>MATMAR</b><br><small>Sport &amp; Streetwear</small></div><div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center"><a id="wa" href="#" target="_blank" rel="noopener">WhatsApp</a><a id="ig" href="#" target="_blank" rel="noopener" style="display:none">Instagram</a><a id="sh" href="#" target="_blank" rel="noopener">Compartir catálogo</a><button class="btn o" onclick="qr()">Código QR</button></div></footer>
+<div class="ov" id="mo"><div class="pn" id="md"></div></div>
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const $m=n=>'$'+Number(n||0).toLocaleString('es-MX'),base=()=>location.href.split('#')[0];
+let D={},P=[],F={q:'',b:'',c:'',s:'',m:'',a:false},cur=null,hp=(location.hash.match(/^#p-([\w-]+)/)||[])[1];
+const pr=p=>p.promo&&p.promo<p.precio?p.promo:p.precio,ok=p=>p.disponible!==false,num=()=>String(D.whatsapp||'').replace(/\D/g,'');
+const fill=(id,l,t,v)=>{$(id).innerHTML=`<option value="">${t}</option>`+l.map(x=>`<option${x===v?' selected':''}>${esc(x)}</option>`).join('')};
+const card=p=>{const i=(p.fotos||[])[0],o=p.promo&&p.promo<p.precio;return `<article class="card" data-id="${esc(p.id)}">${i?`<img loading="lazy" src="${esc(i)}" alt="${esc(p.nombre)}">`:'<div class="ph">MATMAR</div>'}${o?'<b class="tag">Oferta</b>':''}${ok(p)?'':'<b class="tag out">Agotado</b>'}<div class="ci"><small>${esc(p.marca)}</small><h3>${esc(p.nombre)}</h3><p>${o?`<s>${$m(p.precio)}</s> `:''}<strong>${$m(pr(p))}</strong></p></div></article>`};
+function render(){
+ const act=F.q||F.b||F.c||F.s||F.m||F.a,Q=F.q.toLowerCase();
+ const f=P.filter(p=>(!Q||(p.nombre+' '+p.marca+' '+p.categoria).toLowerCase().includes(Q))&&(!F.b||p.marca===F.b)&&(!F.c||p.categoria===F.c)&&(!F.s||(p.tallas||[]).includes(F.s))&&(!F.m||pr(p)<=+F.m)&&(!F.a||ok(p)));
+ const row=(t,l)=>l.length?`<h2>${t}</h2><div class="rw">${l.slice(0,10).map(card).join('')}</div>`:'';
+ $('#rows').innerHTML=act?'':row('Destacados',P.filter(p=>p.destacado))+row('Nuevos lanzamientos',P.filter(p=>p.nuevo))+row('Más vendidos',P.filter(p=>p.masvendido))+row('Promociones',P.filter(p=>p.promo&&p.promo<p.precio));
+ $('#grid').innerHTML=f.length?f.map(card).join(''):`<p class="em">${P.length?'Ningún producto coincide con tu búsqueda.':'Estamos preparando el catálogo. Vuelve pronto.'}</p>`;
+ const u=k=>[...new Set(P.map(p=>p[k]).filter(Boolean))].sort();
+ fill('#fb',u('marca'),'Marca',F.b);fill('#fc',u('categoria'),'Categoría',F.c);fill('#fs',[...new Set(P.flatMap(p=>p.tallas||[]))],'Talla',F.s);
+ $('#cats').innerHTML=u('categoria').map(c=>`<button data-c="${esc(c)}">${esc(c)}</button>`).join('');
+}
+document.addEventListener('click',e=>{const k=e.target.closest('.card');if(k)return openP(k.dataset.id);const c=e.target.dataset.c;if(c){F.c=c;render();$('#catalogo').scrollIntoView()}});
+$('#fq').oninput=e=>{F.q=e.target.value;render()};$('#fb').onchange=e=>{F.b=e.target.value;render()};$('#fc').onchange=e=>{F.c=e.target.value;render()};$('#fs').onchange=e=>{F.s=e.target.value;render()};$('#fm').oninput=e=>{F.m=e.target.value;render()};$('#fa').onchange=e=>{F.a=e.target.checked;render()};
+function openP(id){const p=P.find(x=>x.id===id);if(!p)return;cur={p,i:0};drawP();$('#mo').classList.add('on')}
+const closeM=()=>$('#mo').classList.remove('on');$('#mo').onclick=e=>{if(e.target.id==='mo')closeM()};
+function drawP(){const{p,i}=cur,im=p.fotos||[],o=p.promo&&p.promo<p.precio,msg=encodeURIComponent(`Hola MATMAR, me interesa: ${p.nombre} (${p.marca}). ¿Está disponible?`);
+ $('#md').innerHTML=`<div class="x" onclick="closeM()">×</div>${im.length?`<img class="big" src="${esc(im[i])}" alt="${esc(p.nombre)}"><div class="th">${im.map((u,k)=>`<img src="${esc(u)}" class="${k===i?'on':''}" onclick="cur.i=${k};drawP()" alt="">`).join('')}</div>`:'<div class="ph" style="aspect-ratio:16/9">MATMAR</div>'}<div class="pi"><small>${esc(p.marca)} / ${esc(p.categoria)}</small><h2 style="margin:2px 0">${esc(p.nombre)}</h2><div class="pr">${o?`<s style="color:var(--mu);font-weight:400">${$m(p.precio)}</s> `:''}${$m(pr(p))}</div><p>${esc(p.descripcion)}</p>${(p.tallas||[]).length?`<b>Tallas</b><div>${p.tallas.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div>`:''}${(p.colores||[]).length?`<b>Colores</b><div>${p.colores.map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div>`:''}<p>${ok(p)?'Disponible':'Agotado'}</p><div style="display:flex;gap:8px;flex-wrap:wrap">${num()&&ok(p)?`<a class="btn" target="_blank" rel="noopener" href="https://wa.me/${num()}?text=${msg}">ME INTERESA</a>`:''}<button class="btn o" onclick="shareP()">Compartir producto</button></div></div>`}
+function shareP(){const u=base()+'#p-'+cur.p.id;if(navigator.share)navigator.share({title:cur.p.nombre,url:u}).catch(()=>{});else window.open('https://wa.me/?text='+encodeURIComponent(cur.p.nombre+' en MATMAR: '+u),'_blank')}
+function qr(){$('#md').innerHTML='<div class="x" onclick="closeM()">×</div><h2>Código QR del catálogo</h2><div id="qc" style="background:#fff;padding:14px;display:inline-block"></div><p>Imprímelo o compártelo: abre el catálogo directo.</p>';$('#mo').classList.add('on');
+ const go=()=>new QRCode($('#qc'),{text:base(),width:200,height:200,colorDark:'#0F3460',colorLight:'#ffffff'});if(window.QRCode)go();else{const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';s.onload=go;document.head.appendChild(s)}}
+fetch('products.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{D=d;P=(d.productos||[]).map((p,i)=>({...p,id:String(p.id||'p'+i)}));
+ $('#wa').href=num()?'https://wa.me/'+num():'#';$('#wa').style.display=num()?'':'none';if(D.instagram){$('#ig').href=D.instagram;$('#ig').style.display=''}
+ $('#sh').href='https://wa.me/?text='+encodeURIComponent('Conoce el catálogo de MATMAR: '+base());render();if(hp)openP(hp)}).catch(()=>{$('#grid').innerHTML='<p class="em">No se pudo cargar el catálogo.</p>'});
+</script></body></html>
