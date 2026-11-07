@@ -3,22 +3,6 @@
   "instagram": "",
   "productos": [
     {
-      "id": "jersey-local",
-      "nombre": "Jersey Selección Local",
-      "marca": "Nike",
-      "categoria": "Jerseys de fútbol",
-      "descripcion": "Producto de ejemplo. Cámbialo por el tuyo.",
-      "precio": 1299,
-      "promo": 999,
-      "tallas": ["S", "M", "L", "XL"],
-      "colores": ["Verde"],
-      "disponible": true,
-      "destacado": true,
-      "nuevo": true,
-      "masvendido": true,
-      "fotos": []
-    },
-    {
       "id": "sudadera-essentials",
       "nombre": "Sudadera Essentials",
       "marca": "Adidas",
@@ -26,8 +10,14 @@
       "descripcion": "Producto de ejemplo. Cámbialo por el tuyo.",
       "precio": 1599,
       "promo": 0,
-      "tallas": ["M", "L"],
-      "colores": ["Negro", "Gris"],
+      "tallas": [
+        "M",
+        "L"
+      ],
+      "colores": [
+        "Negro",
+        "Gris"
+      ],
       "disponible": true,
       "destacado": true,
       "nuevo": false,
@@ -42,8 +32,14 @@
       "descripcion": "Producto de ejemplo. Cámbialo por el tuyo.",
       "precio": 4999,
       "promo": 0,
-      "tallas": ["M", "L", "XL"],
-      "colores": ["Negro"],
+      "tallas": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colores": [
+        "Negro"
+      ],
       "disponible": false,
       "destacado": false,
       "nuevo": false,
