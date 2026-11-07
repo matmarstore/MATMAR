@@ -3,28 +3,6 @@
   "instagram": "",
   "productos": [
     {
-      "id": "sudadera-essentials",
-      "nombre": "Sudadera Essentials",
-      "marca": "Adidas",
-      "categoria": "Sudaderas",
-      "descripcion": "Producto de ejemplo. Cámbialo por el tuyo.",
-      "precio": 1599,
-      "promo": 0,
-      "tallas": [
-        "M",
-        "L"
-      ],
-      "colores": [
-        "Negro",
-        "Gris"
-      ],
-      "disponible": true,
-      "destacado": true,
-      "nuevo": false,
-      "masvendido": false,
-      "fotos": []
-    },
-    {
       "id": "chamarra-nuptse",
       "nombre": "Chamarra Nuptse",
       "marca": "The North Face",
