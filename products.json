@@ -1,5 +1,30 @@
 {
   "whatsapp": "522283341780",
   "instagram": "https://www.instagram.com/matmarjersey?psln=MWo4d2w0OHMxMzA4bw%3D%3D&utm_source=qr",
-  "productos": []
+  "productos": [
+    {
+      "fotos": [
+        "fotos/mw620zpb6t1.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Playera blanca",
+      "marca": "Fendi",
+      "categoria": "",
+      "descripcion": "",
+      "precio": 700,
+      "promo": 1000,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "playera-blanca-2hkq"
+    }
+  ]
 }
