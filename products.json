@@ -1,5 +1,32 @@
 {
   "whatsapp": "522283341780",
   "instagram": "https://www.instagram.com/matmarjersey?psln=MWo4d2w0OHMxMzA4bw%3D%3D&utm_source=qr",
-  "productos": []
+  "productos": [
+    {
+      "fotos": [
+        "fotos/mwae78blj5a.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey América Edición Especial Retro 26/27",
+      "marca": "Adidas",
+      "categoria": "Jersey futbol",
+      "descripcion": "Jersey Club América edición especial inspirado en el icónico diseño de 1994-96. Un jersey para coleccionistas y fans del América retro.",
+      "precio": 850,
+      "promo": 600,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Negro"
+      ],
+      "destacado": true,
+      "nuevo": true,
+      "masvendido": false,
+      "id": "jersey-america-edicion-especia-rbkc"
+    }
+  ]
 }
