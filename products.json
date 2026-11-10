@@ -27,6 +27,33 @@
       "nuevo": true,
       "masvendido": false,
       "id": "jersey-america-edicion-especia-rbkc"
+    },
+    {
+      "fotos": [
+        "fotos/mwaext56wo7.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey América Edición 110 Aniversario Retro 70s",
+      "marca": "Adidas",
+      "categoria": "Jersey futbol",
+      "descripcion": "Jersey conmemorativo del 110 aniversario del Club América, inspirado en la estética de los años 70.",
+      "precio": 850,
+      "promo": 600,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Crema",
+        "Azul"
+      ],
+      "destacado": false,
+      "nuevo": true,
+      "masvendido": false,
+      "id": "jersey-america-edicion-110-ani-2t1p"
     }
   ]
 }
