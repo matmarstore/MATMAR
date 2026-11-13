@@ -55,6 +55,34 @@
       "nuevo": true,
       "masvendido": false,
       "id": "jersey-america-edicion-110-ani-2t1p"
+    },
+    {
+      "fotos": [
+        "fotos/mwfhggor6u4.jpg",
+        "fotos/mwfhgjc2l6k.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey puebla loca y visita",
+      "marca": "Prima",
+      "categoria": "Jersey futbol",
+      "descripcion": "Luce los colores de Puebla en sus dos versiones, local y visita. Diseño con identidad poblana.",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Blanco",
+        "Azul"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-puebla-loca-y-visita-hii9"
     }
   ]
 }
