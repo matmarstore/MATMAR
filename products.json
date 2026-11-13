@@ -83,6 +83,36 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-puebla-loca-y-visita-hii9"
+    },
+    {
+      "fotos": [
+        "fotos/mwfi0xtsil5.jpg",
+        "fotos/mwfi100dgu2.jpg",
+        "fotos/mwfi11v64qh.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey Cruz Azul 26/27 Local, Visita y Tercera",
+      "marca": "Prima",
+      "categoria": "Jersey futbol",
+      "descripcion": "Viste la historia de La Máquina. Elige tu favorito: local, visita o tercera, todos con escudos de toda la historia cruzazulina.",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Azul",
+        "Blanco",
+        "Azul marino"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-cruz-azul-26-27-local-v-1ozd"
     }
   ]
 }
