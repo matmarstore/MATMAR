@@ -113,6 +113,34 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-cruz-azul-26-27-local-v-1ozd"
+    },
+    {
+      "fotos": [
+        "fotos/mwi9o7g1nm4.jpg",
+        "fotos/mwi9ob4fgjb.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey América 26/27 Local y Visita",
+      "marca": "Adidas",
+      "categoria": "Jersey futbol",
+      "descripcion": "Las dos pieles del América 26/27: local amarillo con textura grabada y visita negra retro con el escudo original de 1916. ¡Elige la tuya!",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Amarillo",
+        "Negro"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-america-26-27-local-y-v-ouht"
     }
   ]
 }
