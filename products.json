@@ -197,6 +197,34 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-chivas-26-27-local-y-vi-hirq"
+    },
+    {
+      "fotos": [
+        "fotos/mwifrwk43ls.jpg",
+        "fotos/mwifsag98l7.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey Tigres UANL 26/27 Local y Visita",
+      "marca": "Adidas",
+      "categoria": "Jersey futbol",
+      "descripcion": "Viste a los Felinos. El amarillo de siempre y una visita retro azul marino con franja dorada, inspirada en el origen universitario del club.",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Amarillo",
+        "Azul marino"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-tigres-uanl-26-27-local-sfmj"
     }
   ]
 }
