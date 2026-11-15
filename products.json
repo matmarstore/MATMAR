@@ -225,6 +225,34 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-tigres-uanl-26-27-local-sfmj"
+    },
+    {
+      "fotos": [
+        "fotos/mwig1tjd1yw.jpg",
+        "fotos/mwig2dhdzx3.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey Toluca 26/27 Local y Visita",
+      "marca": "New Balance",
+      "categoria": "Jersey futbol",
+      "descripcion": "Los Diablos Rojos con aire retro. Local rojo con cuello polo, inspirado en los 90, y visita blanca con franja azul que homenajea los orígenes de 1925.",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Rojo",
+        "Blanco con azul"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-toluca-26-27-local-y-vi-2io2"
     }
   ]
 }
