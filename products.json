@@ -141,6 +141,34 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-america-26-27-local-y-v-ouht"
+    },
+    {
+      "fotos": [
+        "fotos/mwia6bni3ye.jpg",
+        "fotos/mwia6dsr3ls.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey Atlante 26/27 Local y Visita",
+      "marca": "Charly",
+      "categoria": "Jersey futbol",
+      "descripcion": "Viste el regreso del Atlante. Edición 110 años en dos versiones: el clásico azulgrana y la visita blanca con detalles dorados.",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "AzulGrana",
+        "Blanco"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-atlante-26-27-local-y-v-6my1"
     }
   ]
 }
