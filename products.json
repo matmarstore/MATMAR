@@ -253,6 +253,34 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-toluca-26-27-local-y-vi-2io2"
+    },
+    {
+      "fotos": [
+        "fotos/mwigd3yn7pj.jpg",
+        "fotos/mwigd68218k.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey Pumas UNAM 26/27 Local y Visita",
+      "marca": "Puma",
+      "categoria": "Jersey futbol",
+      "descripcion": "Estrena la nueva era de Pumas con Puma. Local azul y oro de gala y visita blanca con el zarpazo del puma. ¡Orgullo universitario!",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Azul marino",
+        "Blanco"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-pumas-unam-26-27-local--dfd1"
     }
   ]
 }
