@@ -335,6 +335,32 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-pachuca-26-27-local-sqy9"
+    },
+    {
+      "fotos": [
+        "fotos/mwigx3z69rz.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey Chivas Edición Especial 120 Aniversario",
+      "marca": "Puma",
+      "categoria": "Jersey futbol",
+      "descripcion": "El Rebaño Sagrado cumple 120 años. Edición especial con el escudo histórico del Club Unión y los años 1906-2026 en las mangas. Pieza de colección.",
+      "precio": 850,
+      "promo": 600,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Rojo con Blanco"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-chivas-edicion-especial-xou1"
     }
   ]
 }
