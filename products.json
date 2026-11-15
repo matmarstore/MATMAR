@@ -281,6 +281,34 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-pumas-unam-26-27-local--dfd1"
+    },
+    {
+      "fotos": [
+        "fotos/mwigmoyvjuw.jpg",
+        "fotos/mwigmqmjv0l.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey Atlas 26/27 Local y Visita",
+      "marca": "Charly",
+      "categoria": "Jersey futbol",
+      "descripcion": "Lleva la pasión rojinegra a donde juegue el Atlas. Dos versiones del aniversario 110: la mitad y mitad de siempre y una visita gris moderna.",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Rojo con Negro",
+        "Gris"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-atlas-26-27-local-y-vis-mulc"
     }
   ]
 }
