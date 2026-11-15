@@ -309,6 +309,32 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-atlas-26-27-local-y-vis-mulc"
+    },
+    {
+      "fotos": [
+        "fotos/mwigryu79f7.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey Pachuca 26/27 Local",
+      "marca": "Skechers",
+      "categoria": "Jersey futbol",
+      "descripcion": "Viste la tradición de los Tuzos. Local 26/27 con franjas azul y blanco y detalles que honran la historia de Hidalgo.",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Azul con Blanco"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-pachuca-26-27-local-sqy9"
     }
   ]
 }
