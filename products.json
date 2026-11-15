@@ -169,6 +169,34 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-atlante-26-27-local-y-v-6my1"
+    },
+    {
+      "fotos": [
+        "fotos/mwifhca0kdr.jpg",
+        "fotos/mwifhevgf0h.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Jersey Chivas 26/27 Local y Visita",
+      "marca": "Nike",
+      "categoria": "Jersey futbol",
+      "descripcion": "El Rebaño estrena era con Nike. Local rojiblanco clásico con cuello polo y visita blanca con degradado rojo y azul. ¡Lleva los colores de Guadalajara!",
+      "precio": 500,
+      "promo": 450,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [
+        "Rojo",
+        "Blanco"
+      ],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "jersey-chivas-26-27-local-y-vi-hirq"
     }
   ]
 }
