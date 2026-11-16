@@ -414,6 +414,32 @@
       "nuevo": false,
       "masvendido": false,
       "id": "chamarra-bomber-reversible-nik-e9r8"
+    },
+    {
+      "fotos": [
+        "fotos/mwj2rt4zvr5.jpg",
+        "fotos/mwj2s0c6phi.jpg",
+        "fotos/mwj2s1stkj4.jpg",
+        "fotos/mwj2s38137p.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Sudadera Hoodie Mascot  Drew House",
+      "marca": "Drew",
+      "categoria": "Sudadera",
+      "descripcion": "Streetwear con actitud y calidad . Hoodie oversize inspirado en Drew house",
+      "precio": 999,
+      "promo": 915,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colores": [],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "sudadera-hoodie-mascot-drew-ho-smg8"
     }
   ]
 }
