@@ -361,6 +361,30 @@
       "nuevo": false,
       "masvendido": false,
       "id": "jersey-chivas-edicion-especial-xou1"
+    },
+    {
+      "fotos": [
+        "fotos/mwj10mjrhht.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Cortavientos The North Face con Capucha",
+      "marca": "The North Face",
+      "categoria": "Rompevientos",
+      "descripcion": "Protección contra el viento sin el peso extra. Un cortavientos The North Face con look outdoor, fácil de llevar a todas partes.",
+      "precio": 2650,
+      "promo": 1549,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "cortavientos-the-north-face-co-0qps"
     }
   ]
 }
