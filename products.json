@@ -385,6 +385,35 @@
       "nuevo": false,
       "masvendido": false,
       "id": "cortavientos-the-north-face-co-0qps"
+    },
+    {
+      "fotos": [
+        "fotos/mwj15m8g5xe.jpg",
+        "fotos/mwj1dtpm9jt.jpg",
+        "fotos/mwj1dvham69.jpg",
+        "fotos/mwj1dwwd73b.jpg",
+        "fotos/mwj1dyxz0yy.jpg",
+        "fotos/mwj1e03j9dh.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Chamarra Bomber Reversible Nike",
+      "marca": "Nike",
+      "categoria": "Chamarra",
+      "descripcion": "Cambia de look en segundos. Bomber reversible Nike, abrigadora y versátil, perfecta para esta temporada de frío.",
+      "precio": 2750,
+      "promo": 1649,
+      "tallas": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colores": [],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "chamarra-bomber-reversible-nik-e9r8"
     }
   ]
 }
