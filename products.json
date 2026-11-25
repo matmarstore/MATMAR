@@ -440,6 +440,30 @@
       "nuevo": false,
       "masvendido": false,
       "id": "sudadera-hoodie-mascot-drew-ho-smg8"
+    },
+    {
+      "fotos": [
+        "fotos/mwwdj16l8d3.jpg"
+      ],
+      "disponible": true,
+      "nombre": "Chamarra Puffer Corta Mujer estilo The North Face Nuptse",
+      "marca": "The North Face",
+      "categoria": "Chamarra",
+      "descripcion": "Abrigo y estilo en una sola prenda. Chamarra corta tipo Nuptse con cuello alto, bolsillos con cierre y ajuste en el dobladillo. ¡Lo que todas quieren este invierno!",
+      "precio": 3299,
+      "promo": 2730,
+      "tallas": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colores": [],
+      "destacado": false,
+      "nuevo": false,
+      "masvendido": false,
+      "id": "chamarra-puffer-corta-mujer-es-j6u4"
     }
   ]
 }
